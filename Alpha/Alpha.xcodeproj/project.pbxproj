@@ -7,6 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D09D74B1D12602A007048D0 /* Animatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6E41D12602A007048D0 /* Animatable.swift */; };
+		6D09D74C1D12602A007048D0 /* AnimatableBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6E51D12602A007048D0 /* AnimatableBarButtonItem.swift */; };
+		6D09D74D1D12602A007048D0 /* AnimatableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6E61D12602A007048D0 /* AnimatableButton.swift */; };
+		6D09D74E1D12602A007048D0 /* AnimatableCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6E71D12602A007048D0 /* AnimatableCheckBox.swift */; };
+		6D09D74F1D12602A007048D0 /* AnimatableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6E81D12602A007048D0 /* AnimatableCollectionViewCell.swift */; };
+		6D09D7501D12602A007048D0 /* AnimatableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6E91D12602A007048D0 /* AnimatableImageView.swift */; };
+		6D09D7511D12602A007048D0 /* AnimatableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6EA1D12602A007048D0 /* AnimatableLabel.swift */; };
+		6D09D7521D12602A007048D0 /* AnimatableNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6EB1D12602A007048D0 /* AnimatableNavigationController.swift */; };
+		6D09D7531D12602A007048D0 /* AnimatableStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6EC1D12602A007048D0 /* AnimatableStackView.swift */; };
+		6D09D7541D12602A007048D0 /* AnimatableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6ED1D12602A007048D0 /* AnimatableTableView.swift */; };
+		6D09D7551D12602A007048D0 /* AnimatableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6EE1D12602A007048D0 /* AnimatableTableViewCell.swift */; };
+		6D09D7561D12602A007048D0 /* AnimatableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6EF1D12602A007048D0 /* AnimatableTextField.swift */; };
+		6D09D7571D12602A007048D0 /* AnimatableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6F01D12602A007048D0 /* AnimatableTextView.swift */; };
+		6D09D7581D12602A007048D0 /* AnimatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6F11D12602A007048D0 /* AnimatableView.swift */; };
+		6D09D7591D12602A007048D0 /* AnimatableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6F21D12602A007048D0 /* AnimatableViewController.swift */; };
+		6D09D75A1D12602A007048D0 /* AnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6F31D12602A007048D0 /* AnimatedTransitioning.swift */; };
+		6D09D75B1D12602A007048D0 /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6F41D12602A007048D0 /* AnimationType.swift */; };
+		6D09D75C1D12602A007048D0 /* AnimatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6F51D12602A007048D0 /* AnimatorFactory.swift */; };
+		6D09D75D1D12602A007048D0 /* BarButtonItemDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6F61D12602A007048D0 /* BarButtonItemDesignable.swift */; };
+		6D09D75E1D12602A007048D0 /* BlurDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6F71D12602A007048D0 /* BlurDesignable.swift */; };
+		6D09D75F1D12602A007048D0 /* BlurEffectStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6F81D12602A007048D0 /* BlurEffectStyle.swift */; };
+		6D09D7601D12602A007048D0 /* BorderDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6F91D12602A007048D0 /* BorderDesignable.swift */; };
+		6D09D7611D12602A007048D0 /* BorderSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6FA1D12602A007048D0 /* BorderSide.swift */; };
+		6D09D7621D12602A007048D0 /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6FB1D12602A007048D0 /* CALayerExtension.swift */; };
+		6D09D7631D12602A007048D0 /* CardsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6FC1D12602A007048D0 /* CardsAnimator.swift */; };
+		6D09D7641D12602A007048D0 /* CheckBoxDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6FD1D12602A007048D0 /* CheckBoxDesignable.swift */; };
+		6D09D7651D12602A007048D0 /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6FE1D12602A007048D0 /* ColorType.swift */; };
+		6D09D7661D12602A007048D0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D6FF1D12602A007048D0 /* Constants.swift */; };
+		6D09D7671D12602A007048D0 /* ContainerTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7001D12602A007048D0 /* ContainerTransition.swift */; };
+		6D09D7681D12602A007048D0 /* CornerDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7011D12602A007048D0 /* CornerDesignable.swift */; };
+		6D09D7691D12602A007048D0 /* DesignableNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7021D12602A007048D0 /* DesignableNavigationBar.swift */; };
+		6D09D76A1D12602A007048D0 /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7031D12602A007048D0 /* DismissSegue.swift */; };
+		6D09D76B1D12602A007048D0 /* ExplodeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7041D12602A007048D0 /* ExplodeAnimator.swift */; };
+		6D09D76C1D12602A007048D0 /* FadeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7051D12602A007048D0 /* FadeAnimator.swift */; };
+		6D09D76D1D12602A007048D0 /* FillDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7061D12602A007048D0 /* FillDesignable.swift */; };
+		6D09D76E1D12602A007048D0 /* FlipAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7071D12602A007048D0 /* FlipAnimator.swift */; };
+		6D09D76F1D12602A007048D0 /* FoldAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7081D12602A007048D0 /* FoldAnimator.swift */; };
+		6D09D7701D12602A007048D0 /* GestureDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7091D12602A007048D0 /* GestureDirection.swift */; };
+		6D09D7711D12602A007048D0 /* GradientDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D70A1D12602A007048D0 /* GradientDesignable.swift */; };
+		6D09D7721D12602A007048D0 /* GradientStartPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D70B1D12602A007048D0 /* GradientStartPoint.swift */; };
+		6D09D7731D12602A007048D0 /* GradientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D70C1D12602A007048D0 /* GradientType.swift */; };
+		6D09D7741D12602A007048D0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D09D70D1D12602A007048D0 /* Info.plist */; };
+		6D09D7751D12602A007048D0 /* InteractiveAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D70E1D12602A007048D0 /* InteractiveAnimator.swift */; };
+		6D09D7761D12602A007048D0 /* InteractiveAnimatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D70F1D12602A007048D0 /* InteractiveAnimatorFactory.swift */; };
+		6D09D7771D12602A007048D0 /* InteractiveGestureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7101D12602A007048D0 /* InteractiveGestureType.swift */; };
+		6D09D7781D12602A007048D0 /* MaskDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7111D12602A007048D0 /* MaskDesignable.swift */; };
+		6D09D7791D12602A007048D0 /* MaskType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7121D12602A007048D0 /* MaskType.swift */; };
+		6D09D77A1D12602A007048D0 /* NatGeoAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7131D12602A007048D0 /* NatGeoAnimator.swift */; };
+		6D09D77B1D12602A007048D0 /* NavigationBarDesginable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7141D12602A007048D0 /* NavigationBarDesginable.swift */; };
+		6D09D77C1D12602A007048D0 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7151D12602A007048D0 /* Navigator.swift */; };
+		6D09D77D1D12602A007048D0 /* PaddingDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7161D12602A007048D0 /* PaddingDesignable.swift */; };
+		6D09D77E1D12602A007048D0 /* PanInteractiveAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7171D12602A007048D0 /* PanInteractiveAnimator.swift */; };
+		6D09D77F1D12602A007048D0 /* PinchInteractiveAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7181D12602A007048D0 /* PinchInteractiveAnimator.swift */; };
+		6D09D7801D12602A007048D0 /* PlaceholderDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7191D12602A007048D0 /* PlaceholderDesignable.swift */; };
+		6D09D7811D12602A007048D0 /* PortalAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D71A1D12602A007048D0 /* PortalAnimator.swift */; };
+		6D09D7821D12602A007048D0 /* PresentCardsSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D71B1D12602A007048D0 /* PresentCardsSegue.swift */; };
+		6D09D7831D12602A007048D0 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D71C1D12602A007048D0 /* Presenter.swift */; };
+		6D09D7841D12602A007048D0 /* PresenterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D71D1D12602A007048D0 /* PresenterManager.swift */; };
+		6D09D7851D12602A007048D0 /* PresentExplodeSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D71E1D12602A007048D0 /* PresentExplodeSegue.swift */; };
+		6D09D7861D12602A007048D0 /* PresentFadeSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D71F1D12602A007048D0 /* PresentFadeSegue.swift */; };
+		6D09D7871D12602A007048D0 /* PresentFadeWithDismissInteractionSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7201D12602A007048D0 /* PresentFadeWithDismissInteractionSegue.swift */; };
+		6D09D7881D12602A007048D0 /* PresentFlipSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7211D12602A007048D0 /* PresentFlipSegue.swift */; };
+		6D09D7891D12602A007048D0 /* PresentFlipWithDismissInteractionSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7221D12602A007048D0 /* PresentFlipWithDismissInteractionSegue.swift */; };
+		6D09D78A1D12602A007048D0 /* PresentFoldSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7231D12602A007048D0 /* PresentFoldSegue.swift */; };
+		6D09D78B1D12602A007048D0 /* PresentFoldWithDismissInteractionSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7241D12602A007048D0 /* PresentFoldWithDismissInteractionSegue.swift */; };
+		6D09D78C1D12602A007048D0 /* PresentNatGeoSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7251D12602A007048D0 /* PresentNatGeoSegue.swift */; };
+		6D09D78D1D12602A007048D0 /* PresentPortalSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7261D12602A007048D0 /* PresentPortalSegue.swift */; };
+		6D09D78E1D12602A007048D0 /* PresentPortalWithDismissInteractionSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7271D12602A007048D0 /* PresentPortalWithDismissInteractionSegue.swift */; };
+		6D09D78F1D12602A007048D0 /* PresentSlideSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7281D12602A007048D0 /* PresentSlideSegue.swift */; };
+		6D09D7901D12602A007048D0 /* PresentSlideWithDismissInteractionSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7291D12602A007048D0 /* PresentSlideWithDismissInteractionSegue.swift */; };
+		6D09D7911D12602A007048D0 /* PresentTurnSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D72A1D12602A007048D0 /* PresentTurnSegue.swift */; };
+		6D09D7921D12602A007048D0 /* PresentTurnWithDismissInteractionSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D72B1D12602A007048D0 /* PresentTurnWithDismissInteractionSegue.swift */; };
+		6D09D7931D12602A007048D0 /* RootWindowDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D72C1D12602A007048D0 /* RootWindowDesignable.swift */; };
+		6D09D7941D12602A007048D0 /* RotationDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D72D1D12602A007048D0 /* RotationDesignable.swift */; };
+		6D09D7951D12602A007048D0 /* ScreenEdgePanInteractiveAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D72E1D12602A007048D0 /* ScreenEdgePanInteractiveAnimator.swift */; };
+		6D09D7961D12602A007048D0 /* ShadowDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D72F1D12602A007048D0 /* ShadowDesignable.swift */; };
+		6D09D7971D12602A007048D0 /* SideImageDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7301D12602A007048D0 /* SideImageDesignable.swift */; };
+		6D09D7981D12602A007048D0 /* SlideAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7311D12602A007048D0 /* SlideAnimator.swift */; };
+		6D09D7991D12602A007048D0 /* StatusBarDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7321D12602A007048D0 /* StatusBarDesignable.swift */; };
+		6D09D79A1D12602A007048D0 /* SystemCameraIrisAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7331D12602A007048D0 /* SystemCameraIrisAnimator.swift */; };
+		6D09D79B1D12602A007048D0 /* SystemCubeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7341D12602A007048D0 /* SystemCubeAnimator.swift */; };
+		6D09D79C1D12602A007048D0 /* SystemFlipAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7351D12602A007048D0 /* SystemFlipAnimator.swift */; };
+		6D09D79D1D12602A007048D0 /* SystemMoveInAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7361D12602A007048D0 /* SystemMoveInAnimator.swift */; };
+		6D09D79E1D12602A007048D0 /* SystemPageAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7371D12602A007048D0 /* SystemPageAnimator.swift */; };
+		6D09D79F1D12602A007048D0 /* SystemPushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7381D12602A007048D0 /* SystemPushAnimator.swift */; };
+		6D09D7A01D12602A007048D0 /* SystemRevealAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7391D12602A007048D0 /* SystemRevealAnimator.swift */; };
+		6D09D7A11D12602A007048D0 /* SystemRippleEffectAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D73A1D12602A007048D0 /* SystemRippleEffectAnimator.swift */; };
+		6D09D7A21D12602A007048D0 /* SystemRotateAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D73B1D12602A007048D0 /* SystemRotateAnimator.swift */; };
+		6D09D7A31D12602A007048D0 /* SystemSuckEffectAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D73C1D12602A007048D0 /* SystemSuckEffectAnimator.swift */; };
+		6D09D7A41D12602A007048D0 /* SystemTransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D73D1D12602A007048D0 /* SystemTransitionType.swift */; };
+		6D09D7A51D12602A007048D0 /* TableViewCellDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D73E1D12602A007048D0 /* TableViewCellDesignable.swift */; };
+		6D09D7A61D12602A007048D0 /* TintDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D73F1D12602A007048D0 /* TintDesignable.swift */; };
+		6D09D7A71D12602A007048D0 /* TransitionAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7401D12602A007048D0 /* TransitionAnimatable.swift */; };
+		6D09D7A81D12602A007048D0 /* TransitionAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7411D12602A007048D0 /* TransitionAnimationType.swift */; };
+		6D09D7A91D12602A007048D0 /* TransitionFromDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7421D12602A007048D0 /* TransitionFromDirection.swift */; };
+		6D09D7AA1D12602A007048D0 /* TransitionHollowState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7431D12602A007048D0 /* TransitionHollowState.swift */; };
+		6D09D7AB1D12602A007048D0 /* TransitionPageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7441D12602A007048D0 /* TransitionPageType.swift */; };
+		6D09D7AC1D12602A007048D0 /* TransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7451D12602A007048D0 /* TransitionType.swift */; };
+		6D09D7AD1D12602A007048D0 /* TurnAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7461D12602A007048D0 /* TurnAnimator.swift */; };
+		6D09D7AE1D12602A007048D0 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7471D12602A007048D0 /* Typealias.swift */; };
+		6D09D7AF1D12602A007048D0 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7481D12602A007048D0 /* UIColorExtension.swift */; };
+		6D09D7B01D12602A007048D0 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D7491D12602A007048D0 /* UIViewControllerExtension.swift */; };
+		6D09D7B11D12602A007048D0 /* ViewControllerDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09D74A1D12602A007048D0 /* ViewControllerDesignable.swift */; };
 		6D630E1D1D0058A9001E18D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D630E1C1D0058A9001E18D1 /* AppDelegate.swift */; };
 		6D630E1F1D0058A9001E18D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D630E1E1D0058A9001E18D1 /* ViewController.swift */; };
 		6D630E221D0058A9001E18D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D630E201D0058A9001E18D1 /* Main.storyboard */; };
@@ -15,6 +118,109 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D09D6E41D12602A007048D0 /* Animatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animatable.swift; sourceTree = "<group>"; };
+		6D09D6E51D12602A007048D0 /* AnimatableBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableBarButtonItem.swift; sourceTree = "<group>"; };
+		6D09D6E61D12602A007048D0 /* AnimatableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableButton.swift; sourceTree = "<group>"; };
+		6D09D6E71D12602A007048D0 /* AnimatableCheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableCheckBox.swift; sourceTree = "<group>"; };
+		6D09D6E81D12602A007048D0 /* AnimatableCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableCollectionViewCell.swift; sourceTree = "<group>"; };
+		6D09D6E91D12602A007048D0 /* AnimatableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableImageView.swift; sourceTree = "<group>"; };
+		6D09D6EA1D12602A007048D0 /* AnimatableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableLabel.swift; sourceTree = "<group>"; };
+		6D09D6EB1D12602A007048D0 /* AnimatableNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableNavigationController.swift; sourceTree = "<group>"; };
+		6D09D6EC1D12602A007048D0 /* AnimatableStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableStackView.swift; sourceTree = "<group>"; };
+		6D09D6ED1D12602A007048D0 /* AnimatableTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableTableView.swift; sourceTree = "<group>"; };
+		6D09D6EE1D12602A007048D0 /* AnimatableTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableTableViewCell.swift; sourceTree = "<group>"; };
+		6D09D6EF1D12602A007048D0 /* AnimatableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableTextField.swift; sourceTree = "<group>"; };
+		6D09D6F01D12602A007048D0 /* AnimatableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableTextView.swift; sourceTree = "<group>"; };
+		6D09D6F11D12602A007048D0 /* AnimatableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableView.swift; sourceTree = "<group>"; };
+		6D09D6F21D12602A007048D0 /* AnimatableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableViewController.swift; sourceTree = "<group>"; };
+		6D09D6F31D12602A007048D0 /* AnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTransitioning.swift; sourceTree = "<group>"; };
+		6D09D6F41D12602A007048D0 /* AnimationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
+		6D09D6F51D12602A007048D0 /* AnimatorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatorFactory.swift; sourceTree = "<group>"; };
+		6D09D6F61D12602A007048D0 /* BarButtonItemDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarButtonItemDesignable.swift; sourceTree = "<group>"; };
+		6D09D6F71D12602A007048D0 /* BlurDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurDesignable.swift; sourceTree = "<group>"; };
+		6D09D6F81D12602A007048D0 /* BlurEffectStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurEffectStyle.swift; sourceTree = "<group>"; };
+		6D09D6F91D12602A007048D0 /* BorderDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderDesignable.swift; sourceTree = "<group>"; };
+		6D09D6FA1D12602A007048D0 /* BorderSide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderSide.swift; sourceTree = "<group>"; };
+		6D09D6FB1D12602A007048D0 /* CALayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
+		6D09D6FC1D12602A007048D0 /* CardsAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsAnimator.swift; sourceTree = "<group>"; };
+		6D09D6FD1D12602A007048D0 /* CheckBoxDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxDesignable.swift; sourceTree = "<group>"; };
+		6D09D6FE1D12602A007048D0 /* ColorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorType.swift; sourceTree = "<group>"; };
+		6D09D6FF1D12602A007048D0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6D09D7001D12602A007048D0 /* ContainerTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerTransition.swift; sourceTree = "<group>"; };
+		6D09D7011D12602A007048D0 /* CornerDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerDesignable.swift; sourceTree = "<group>"; };
+		6D09D7021D12602A007048D0 /* DesignableNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableNavigationBar.swift; sourceTree = "<group>"; };
+		6D09D7031D12602A007048D0 /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
+		6D09D7041D12602A007048D0 /* ExplodeAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplodeAnimator.swift; sourceTree = "<group>"; };
+		6D09D7051D12602A007048D0 /* FadeAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeAnimator.swift; sourceTree = "<group>"; };
+		6D09D7061D12602A007048D0 /* FillDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillDesignable.swift; sourceTree = "<group>"; };
+		6D09D7071D12602A007048D0 /* FlipAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipAnimator.swift; sourceTree = "<group>"; };
+		6D09D7081D12602A007048D0 /* FoldAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldAnimator.swift; sourceTree = "<group>"; };
+		6D09D7091D12602A007048D0 /* GestureDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureDirection.swift; sourceTree = "<group>"; };
+		6D09D70A1D12602A007048D0 /* GradientDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientDesignable.swift; sourceTree = "<group>"; };
+		6D09D70B1D12602A007048D0 /* GradientStartPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientStartPoint.swift; sourceTree = "<group>"; };
+		6D09D70C1D12602A007048D0 /* GradientType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientType.swift; sourceTree = "<group>"; };
+		6D09D70D1D12602A007048D0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D09D70E1D12602A007048D0 /* InteractiveAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveAnimator.swift; sourceTree = "<group>"; };
+		6D09D70F1D12602A007048D0 /* InteractiveAnimatorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveAnimatorFactory.swift; sourceTree = "<group>"; };
+		6D09D7101D12602A007048D0 /* InteractiveGestureType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveGestureType.swift; sourceTree = "<group>"; };
+		6D09D7111D12602A007048D0 /* MaskDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskDesignable.swift; sourceTree = "<group>"; };
+		6D09D7121D12602A007048D0 /* MaskType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskType.swift; sourceTree = "<group>"; };
+		6D09D7131D12602A007048D0 /* NatGeoAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NatGeoAnimator.swift; sourceTree = "<group>"; };
+		6D09D7141D12602A007048D0 /* NavigationBarDesginable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarDesginable.swift; sourceTree = "<group>"; };
+		6D09D7151D12602A007048D0 /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		6D09D7161D12602A007048D0 /* PaddingDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingDesignable.swift; sourceTree = "<group>"; };
+		6D09D7171D12602A007048D0 /* PanInteractiveAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanInteractiveAnimator.swift; sourceTree = "<group>"; };
+		6D09D7181D12602A007048D0 /* PinchInteractiveAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinchInteractiveAnimator.swift; sourceTree = "<group>"; };
+		6D09D7191D12602A007048D0 /* PlaceholderDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderDesignable.swift; sourceTree = "<group>"; };
+		6D09D71A1D12602A007048D0 /* PortalAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortalAnimator.swift; sourceTree = "<group>"; };
+		6D09D71B1D12602A007048D0 /* PresentCardsSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentCardsSegue.swift; sourceTree = "<group>"; };
+		6D09D71C1D12602A007048D0 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		6D09D71D1D12602A007048D0 /* PresenterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterManager.swift; sourceTree = "<group>"; };
+		6D09D71E1D12602A007048D0 /* PresentExplodeSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentExplodeSegue.swift; sourceTree = "<group>"; };
+		6D09D71F1D12602A007048D0 /* PresentFadeSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentFadeSegue.swift; sourceTree = "<group>"; };
+		6D09D7201D12602A007048D0 /* PresentFadeWithDismissInteractionSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentFadeWithDismissInteractionSegue.swift; sourceTree = "<group>"; };
+		6D09D7211D12602A007048D0 /* PresentFlipSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentFlipSegue.swift; sourceTree = "<group>"; };
+		6D09D7221D12602A007048D0 /* PresentFlipWithDismissInteractionSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentFlipWithDismissInteractionSegue.swift; sourceTree = "<group>"; };
+		6D09D7231D12602A007048D0 /* PresentFoldSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentFoldSegue.swift; sourceTree = "<group>"; };
+		6D09D7241D12602A007048D0 /* PresentFoldWithDismissInteractionSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentFoldWithDismissInteractionSegue.swift; sourceTree = "<group>"; };
+		6D09D7251D12602A007048D0 /* PresentNatGeoSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentNatGeoSegue.swift; sourceTree = "<group>"; };
+		6D09D7261D12602A007048D0 /* PresentPortalSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentPortalSegue.swift; sourceTree = "<group>"; };
+		6D09D7271D12602A007048D0 /* PresentPortalWithDismissInteractionSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentPortalWithDismissInteractionSegue.swift; sourceTree = "<group>"; };
+		6D09D7281D12602A007048D0 /* PresentSlideSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentSlideSegue.swift; sourceTree = "<group>"; };
+		6D09D7291D12602A007048D0 /* PresentSlideWithDismissInteractionSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentSlideWithDismissInteractionSegue.swift; sourceTree = "<group>"; };
+		6D09D72A1D12602A007048D0 /* PresentTurnSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentTurnSegue.swift; sourceTree = "<group>"; };
+		6D09D72B1D12602A007048D0 /* PresentTurnWithDismissInteractionSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentTurnWithDismissInteractionSegue.swift; sourceTree = "<group>"; };
+		6D09D72C1D12602A007048D0 /* RootWindowDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWindowDesignable.swift; sourceTree = "<group>"; };
+		6D09D72D1D12602A007048D0 /* RotationDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationDesignable.swift; sourceTree = "<group>"; };
+		6D09D72E1D12602A007048D0 /* ScreenEdgePanInteractiveAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenEdgePanInteractiveAnimator.swift; sourceTree = "<group>"; };
+		6D09D72F1D12602A007048D0 /* ShadowDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowDesignable.swift; sourceTree = "<group>"; };
+		6D09D7301D12602A007048D0 /* SideImageDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideImageDesignable.swift; sourceTree = "<group>"; };
+		6D09D7311D12602A007048D0 /* SlideAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideAnimator.swift; sourceTree = "<group>"; };
+		6D09D7321D12602A007048D0 /* StatusBarDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBarDesignable.swift; sourceTree = "<group>"; };
+		6D09D7331D12602A007048D0 /* SystemCameraIrisAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemCameraIrisAnimator.swift; sourceTree = "<group>"; };
+		6D09D7341D12602A007048D0 /* SystemCubeAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemCubeAnimator.swift; sourceTree = "<group>"; };
+		6D09D7351D12602A007048D0 /* SystemFlipAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemFlipAnimator.swift; sourceTree = "<group>"; };
+		6D09D7361D12602A007048D0 /* SystemMoveInAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemMoveInAnimator.swift; sourceTree = "<group>"; };
+		6D09D7371D12602A007048D0 /* SystemPageAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemPageAnimator.swift; sourceTree = "<group>"; };
+		6D09D7381D12602A007048D0 /* SystemPushAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemPushAnimator.swift; sourceTree = "<group>"; };
+		6D09D7391D12602A007048D0 /* SystemRevealAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemRevealAnimator.swift; sourceTree = "<group>"; };
+		6D09D73A1D12602A007048D0 /* SystemRippleEffectAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemRippleEffectAnimator.swift; sourceTree = "<group>"; };
+		6D09D73B1D12602A007048D0 /* SystemRotateAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemRotateAnimator.swift; sourceTree = "<group>"; };
+		6D09D73C1D12602A007048D0 /* SystemSuckEffectAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemSuckEffectAnimator.swift; sourceTree = "<group>"; };
+		6D09D73D1D12602A007048D0 /* SystemTransitionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemTransitionType.swift; sourceTree = "<group>"; };
+		6D09D73E1D12602A007048D0 /* TableViewCellDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellDesignable.swift; sourceTree = "<group>"; };
+		6D09D73F1D12602A007048D0 /* TintDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TintDesignable.swift; sourceTree = "<group>"; };
+		6D09D7401D12602A007048D0 /* TransitionAnimatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimatable.swift; sourceTree = "<group>"; };
+		6D09D7411D12602A007048D0 /* TransitionAnimationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimationType.swift; sourceTree = "<group>"; };
+		6D09D7421D12602A007048D0 /* TransitionFromDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionFromDirection.swift; sourceTree = "<group>"; };
+		6D09D7431D12602A007048D0 /* TransitionHollowState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionHollowState.swift; sourceTree = "<group>"; };
+		6D09D7441D12602A007048D0 /* TransitionPageType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionPageType.swift; sourceTree = "<group>"; };
+		6D09D7451D12602A007048D0 /* TransitionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionType.swift; sourceTree = "<group>"; };
+		6D09D7461D12602A007048D0 /* TurnAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnAnimator.swift; sourceTree = "<group>"; };
+		6D09D7471D12602A007048D0 /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		6D09D7481D12602A007048D0 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		6D09D7491D12602A007048D0 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		6D09D74A1D12602A007048D0 /* ViewControllerDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDesignable.swift; sourceTree = "<group>"; };
 		6D630E191D0058A9001E18D1 /* Alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D630E1C1D0058A9001E18D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D630E1E1D0058A9001E18D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,11 +241,122 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D09D6E31D12602A007048D0 /* IBAnimatable */ = {
+			isa = PBXGroup;
+			children = (
+				6D09D6E41D12602A007048D0 /* Animatable.swift */,
+				6D09D6E51D12602A007048D0 /* AnimatableBarButtonItem.swift */,
+				6D09D6E61D12602A007048D0 /* AnimatableButton.swift */,
+				6D09D6E71D12602A007048D0 /* AnimatableCheckBox.swift */,
+				6D09D6E81D12602A007048D0 /* AnimatableCollectionViewCell.swift */,
+				6D09D6E91D12602A007048D0 /* AnimatableImageView.swift */,
+				6D09D6EA1D12602A007048D0 /* AnimatableLabel.swift */,
+				6D09D6EB1D12602A007048D0 /* AnimatableNavigationController.swift */,
+				6D09D6EC1D12602A007048D0 /* AnimatableStackView.swift */,
+				6D09D6ED1D12602A007048D0 /* AnimatableTableView.swift */,
+				6D09D6EE1D12602A007048D0 /* AnimatableTableViewCell.swift */,
+				6D09D6EF1D12602A007048D0 /* AnimatableTextField.swift */,
+				6D09D6F01D12602A007048D0 /* AnimatableTextView.swift */,
+				6D09D6F11D12602A007048D0 /* AnimatableView.swift */,
+				6D09D6F21D12602A007048D0 /* AnimatableViewController.swift */,
+				6D09D6F31D12602A007048D0 /* AnimatedTransitioning.swift */,
+				6D09D6F41D12602A007048D0 /* AnimationType.swift */,
+				6D09D6F51D12602A007048D0 /* AnimatorFactory.swift */,
+				6D09D6F61D12602A007048D0 /* BarButtonItemDesignable.swift */,
+				6D09D6F71D12602A007048D0 /* BlurDesignable.swift */,
+				6D09D6F81D12602A007048D0 /* BlurEffectStyle.swift */,
+				6D09D6F91D12602A007048D0 /* BorderDesignable.swift */,
+				6D09D6FA1D12602A007048D0 /* BorderSide.swift */,
+				6D09D6FB1D12602A007048D0 /* CALayerExtension.swift */,
+				6D09D6FC1D12602A007048D0 /* CardsAnimator.swift */,
+				6D09D6FD1D12602A007048D0 /* CheckBoxDesignable.swift */,
+				6D09D6FE1D12602A007048D0 /* ColorType.swift */,
+				6D09D6FF1D12602A007048D0 /* Constants.swift */,
+				6D09D7001D12602A007048D0 /* ContainerTransition.swift */,
+				6D09D7011D12602A007048D0 /* CornerDesignable.swift */,
+				6D09D7021D12602A007048D0 /* DesignableNavigationBar.swift */,
+				6D09D7031D12602A007048D0 /* DismissSegue.swift */,
+				6D09D7041D12602A007048D0 /* ExplodeAnimator.swift */,
+				6D09D7051D12602A007048D0 /* FadeAnimator.swift */,
+				6D09D7061D12602A007048D0 /* FillDesignable.swift */,
+				6D09D7071D12602A007048D0 /* FlipAnimator.swift */,
+				6D09D7081D12602A007048D0 /* FoldAnimator.swift */,
+				6D09D7091D12602A007048D0 /* GestureDirection.swift */,
+				6D09D70A1D12602A007048D0 /* GradientDesignable.swift */,
+				6D09D70B1D12602A007048D0 /* GradientStartPoint.swift */,
+				6D09D70C1D12602A007048D0 /* GradientType.swift */,
+				6D09D70D1D12602A007048D0 /* Info.plist */,
+				6D09D70E1D12602A007048D0 /* InteractiveAnimator.swift */,
+				6D09D70F1D12602A007048D0 /* InteractiveAnimatorFactory.swift */,
+				6D09D7101D12602A007048D0 /* InteractiveGestureType.swift */,
+				6D09D7111D12602A007048D0 /* MaskDesignable.swift */,
+				6D09D7121D12602A007048D0 /* MaskType.swift */,
+				6D09D7131D12602A007048D0 /* NatGeoAnimator.swift */,
+				6D09D7141D12602A007048D0 /* NavigationBarDesginable.swift */,
+				6D09D7151D12602A007048D0 /* Navigator.swift */,
+				6D09D7161D12602A007048D0 /* PaddingDesignable.swift */,
+				6D09D7171D12602A007048D0 /* PanInteractiveAnimator.swift */,
+				6D09D7181D12602A007048D0 /* PinchInteractiveAnimator.swift */,
+				6D09D7191D12602A007048D0 /* PlaceholderDesignable.swift */,
+				6D09D71A1D12602A007048D0 /* PortalAnimator.swift */,
+				6D09D71B1D12602A007048D0 /* PresentCardsSegue.swift */,
+				6D09D71C1D12602A007048D0 /* Presenter.swift */,
+				6D09D71D1D12602A007048D0 /* PresenterManager.swift */,
+				6D09D71E1D12602A007048D0 /* PresentExplodeSegue.swift */,
+				6D09D71F1D12602A007048D0 /* PresentFadeSegue.swift */,
+				6D09D7201D12602A007048D0 /* PresentFadeWithDismissInteractionSegue.swift */,
+				6D09D7211D12602A007048D0 /* PresentFlipSegue.swift */,
+				6D09D7221D12602A007048D0 /* PresentFlipWithDismissInteractionSegue.swift */,
+				6D09D7231D12602A007048D0 /* PresentFoldSegue.swift */,
+				6D09D7241D12602A007048D0 /* PresentFoldWithDismissInteractionSegue.swift */,
+				6D09D7251D12602A007048D0 /* PresentNatGeoSegue.swift */,
+				6D09D7261D12602A007048D0 /* PresentPortalSegue.swift */,
+				6D09D7271D12602A007048D0 /* PresentPortalWithDismissInteractionSegue.swift */,
+				6D09D7281D12602A007048D0 /* PresentSlideSegue.swift */,
+				6D09D7291D12602A007048D0 /* PresentSlideWithDismissInteractionSegue.swift */,
+				6D09D72A1D12602A007048D0 /* PresentTurnSegue.swift */,
+				6D09D72B1D12602A007048D0 /* PresentTurnWithDismissInteractionSegue.swift */,
+				6D09D72C1D12602A007048D0 /* RootWindowDesignable.swift */,
+				6D09D72D1D12602A007048D0 /* RotationDesignable.swift */,
+				6D09D72E1D12602A007048D0 /* ScreenEdgePanInteractiveAnimator.swift */,
+				6D09D72F1D12602A007048D0 /* ShadowDesignable.swift */,
+				6D09D7301D12602A007048D0 /* SideImageDesignable.swift */,
+				6D09D7311D12602A007048D0 /* SlideAnimator.swift */,
+				6D09D7321D12602A007048D0 /* StatusBarDesignable.swift */,
+				6D09D7331D12602A007048D0 /* SystemCameraIrisAnimator.swift */,
+				6D09D7341D12602A007048D0 /* SystemCubeAnimator.swift */,
+				6D09D7351D12602A007048D0 /* SystemFlipAnimator.swift */,
+				6D09D7361D12602A007048D0 /* SystemMoveInAnimator.swift */,
+				6D09D7371D12602A007048D0 /* SystemPageAnimator.swift */,
+				6D09D7381D12602A007048D0 /* SystemPushAnimator.swift */,
+				6D09D7391D12602A007048D0 /* SystemRevealAnimator.swift */,
+				6D09D73A1D12602A007048D0 /* SystemRippleEffectAnimator.swift */,
+				6D09D73B1D12602A007048D0 /* SystemRotateAnimator.swift */,
+				6D09D73C1D12602A007048D0 /* SystemSuckEffectAnimator.swift */,
+				6D09D73D1D12602A007048D0 /* SystemTransitionType.swift */,
+				6D09D73E1D12602A007048D0 /* TableViewCellDesignable.swift */,
+				6D09D73F1D12602A007048D0 /* TintDesignable.swift */,
+				6D09D7401D12602A007048D0 /* TransitionAnimatable.swift */,
+				6D09D7411D12602A007048D0 /* TransitionAnimationType.swift */,
+				6D09D7421D12602A007048D0 /* TransitionFromDirection.swift */,
+				6D09D7431D12602A007048D0 /* TransitionHollowState.swift */,
+				6D09D7441D12602A007048D0 /* TransitionPageType.swift */,
+				6D09D7451D12602A007048D0 /* TransitionType.swift */,
+				6D09D7461D12602A007048D0 /* TurnAnimator.swift */,
+				6D09D7471D12602A007048D0 /* Typealias.swift */,
+				6D09D7481D12602A007048D0 /* UIColorExtension.swift */,
+				6D09D7491D12602A007048D0 /* UIViewControllerExtension.swift */,
+				6D09D74A1D12602A007048D0 /* ViewControllerDesignable.swift */,
+			);
+			path = IBAnimatable;
+			sourceTree = "<group>";
+		};
 		6D630E101D0058A9001E18D1 = {
 			isa = PBXGroup;
 			children = (
 				6D630E1B1D0058A9001E18D1 /* Alpha */,
 				6D630E1A1D0058A9001E18D1 /* Products */,
+				6D09D6E31D12602A007048D0 /* IBAnimatable */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +439,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D09D7741D12602A007048D0 /* Info.plist in Resources */,
 				6D630E271D0058A9001E18D1 /* LaunchScreen.storyboard in Resources */,
 				6D630E241D0058A9001E18D1 /* Assets.xcassets in Resources */,
 				6D630E221D0058A9001E18D1 /* Main.storyboard in Resources */,
@@ -135,8 +453,110 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D09D7771D12602A007048D0 /* InteractiveGestureType.swift in Sources */,
+				6D09D7AB1D12602A007048D0 /* TransitionPageType.swift in Sources */,
+				6D09D7A51D12602A007048D0 /* TableViewCellDesignable.swift in Sources */,
+				6D09D7871D12602A007048D0 /* PresentFadeWithDismissInteractionSegue.swift in Sources */,
+				6D09D7501D12602A007048D0 /* AnimatableImageView.swift in Sources */,
+				6D09D79D1D12602A007048D0 /* SystemMoveInAnimator.swift in Sources */,
+				6D09D78F1D12602A007048D0 /* PresentSlideSegue.swift in Sources */,
+				6D09D78D1D12602A007048D0 /* PresentPortalSegue.swift in Sources */,
+				6D09D7701D12602A007048D0 /* GestureDirection.swift in Sources */,
+				6D09D7A71D12602A007048D0 /* TransitionAnimatable.swift in Sources */,
+				6D09D7941D12602A007048D0 /* RotationDesignable.swift in Sources */,
+				6D09D77A1D12602A007048D0 /* NatGeoAnimator.swift in Sources */,
+				6D09D7971D12602A007048D0 /* SideImageDesignable.swift in Sources */,
+				6D09D7731D12602A007048D0 /* GradientType.swift in Sources */,
+				6D09D74F1D12602A007048D0 /* AnimatableCollectionViewCell.swift in Sources */,
+				6D09D7831D12602A007048D0 /* Presenter.swift in Sources */,
+				6D09D7851D12602A007048D0 /* PresentExplodeSegue.swift in Sources */,
+				6D09D7AF1D12602A007048D0 /* UIColorExtension.swift in Sources */,
+				6D09D75A1D12602A007048D0 /* AnimatedTransitioning.swift in Sources */,
+				6D09D7781D12602A007048D0 /* MaskDesignable.swift in Sources */,
+				6D09D7AC1D12602A007048D0 /* TransitionType.swift in Sources */,
+				6D09D7791D12602A007048D0 /* MaskType.swift in Sources */,
+				6D09D78C1D12602A007048D0 /* PresentNatGeoSegue.swift in Sources */,
+				6D09D7761D12602A007048D0 /* InteractiveAnimatorFactory.swift in Sources */,
+				6D09D7511D12602A007048D0 /* AnimatableLabel.swift in Sources */,
+				6D09D78B1D12602A007048D0 /* PresentFoldWithDismissInteractionSegue.swift in Sources */,
+				6D09D7521D12602A007048D0 /* AnimatableNavigationController.swift in Sources */,
+				6D09D7661D12602A007048D0 /* Constants.swift in Sources */,
 				6D630E1F1D0058A9001E18D1 /* ViewController.swift in Sources */,
+				6D09D77F1D12602A007048D0 /* PinchInteractiveAnimator.swift in Sources */,
+				6D09D7981D12602A007048D0 /* SlideAnimator.swift in Sources */,
+				6D09D74D1D12602A007048D0 /* AnimatableButton.swift in Sources */,
+				6D09D76A1D12602A007048D0 /* DismissSegue.swift in Sources */,
+				6D09D7991D12602A007048D0 /* StatusBarDesignable.swift in Sources */,
+				6D09D7AD1D12602A007048D0 /* TurnAnimator.swift in Sources */,
+				6D09D78E1D12602A007048D0 /* PresentPortalWithDismissInteractionSegue.swift in Sources */,
+				6D09D7681D12602A007048D0 /* CornerDesignable.swift in Sources */,
+				6D09D7B01D12602A007048D0 /* UIViewControllerExtension.swift in Sources */,
+				6D09D7721D12602A007048D0 /* GradientStartPoint.swift in Sources */,
+				6D09D76B1D12602A007048D0 /* ExplodeAnimator.swift in Sources */,
+				6D09D7621D12602A007048D0 /* CALayerExtension.swift in Sources */,
+				6D09D7531D12602A007048D0 /* AnimatableStackView.swift in Sources */,
+				6D09D76E1D12602A007048D0 /* FlipAnimator.swift in Sources */,
+				6D09D7A01D12602A007048D0 /* SystemRevealAnimator.swift in Sources */,
+				6D09D7591D12602A007048D0 /* AnimatableViewController.swift in Sources */,
+				6D09D7841D12602A007048D0 /* PresenterManager.swift in Sources */,
+				6D09D7951D12602A007048D0 /* ScreenEdgePanInteractiveAnimator.swift in Sources */,
+				6D09D76F1D12602A007048D0 /* FoldAnimator.swift in Sources */,
+				6D09D76D1D12602A007048D0 /* FillDesignable.swift in Sources */,
+				6D09D7551D12602A007048D0 /* AnimatableTableViewCell.swift in Sources */,
+				6D09D7AE1D12602A007048D0 /* Typealias.swift in Sources */,
+				6D09D7911D12602A007048D0 /* PresentTurnSegue.swift in Sources */,
+				6D09D79E1D12602A007048D0 /* SystemPageAnimator.swift in Sources */,
+				6D09D7711D12602A007048D0 /* GradientDesignable.swift in Sources */,
+				6D09D7901D12602A007048D0 /* PresentSlideWithDismissInteractionSegue.swift in Sources */,
+				6D09D75B1D12602A007048D0 /* AnimationType.swift in Sources */,
+				6D09D7A31D12602A007048D0 /* SystemSuckEffectAnimator.swift in Sources */,
+				6D09D75C1D12602A007048D0 /* AnimatorFactory.swift in Sources */,
+				6D09D7581D12602A007048D0 /* AnimatableView.swift in Sources */,
+				6D09D7861D12602A007048D0 /* PresentFadeSegue.swift in Sources */,
+				6D09D7A61D12602A007048D0 /* TintDesignable.swift in Sources */,
+				6D09D7A21D12602A007048D0 /* SystemRotateAnimator.swift in Sources */,
+				6D09D7891D12602A007048D0 /* PresentFlipWithDismissInteractionSegue.swift in Sources */,
+				6D09D7961D12602A007048D0 /* ShadowDesignable.swift in Sources */,
+				6D09D7AA1D12602A007048D0 /* TransitionHollowState.swift in Sources */,
+				6D09D7751D12602A007048D0 /* InteractiveAnimator.swift in Sources */,
+				6D09D7601D12602A007048D0 /* BorderDesignable.swift in Sources */,
+				6D09D7801D12602A007048D0 /* PlaceholderDesignable.swift in Sources */,
+				6D09D75F1D12602A007048D0 /* BlurEffectStyle.swift in Sources */,
+				6D09D76C1D12602A007048D0 /* FadeAnimator.swift in Sources */,
+				6D09D7571D12602A007048D0 /* AnimatableTextView.swift in Sources */,
+				6D09D77C1D12602A007048D0 /* Navigator.swift in Sources */,
+				6D09D7691D12602A007048D0 /* DesignableNavigationBar.swift in Sources */,
+				6D09D74B1D12602A007048D0 /* Animatable.swift in Sources */,
+				6D09D7931D12602A007048D0 /* RootWindowDesignable.swift in Sources */,
+				6D09D79B1D12602A007048D0 /* SystemCubeAnimator.swift in Sources */,
+				6D09D7881D12602A007048D0 /* PresentFlipSegue.swift in Sources */,
+				6D09D79A1D12602A007048D0 /* SystemCameraIrisAnimator.swift in Sources */,
+				6D09D7B11D12602A007048D0 /* ViewControllerDesignable.swift in Sources */,
+				6D09D74C1D12602A007048D0 /* AnimatableBarButtonItem.swift in Sources */,
+				6D09D7541D12602A007048D0 /* AnimatableTableView.swift in Sources */,
+				6D09D7641D12602A007048D0 /* CheckBoxDesignable.swift in Sources */,
+				6D09D7651D12602A007048D0 /* ColorType.swift in Sources */,
+				6D09D7811D12602A007048D0 /* PortalAnimator.swift in Sources */,
+				6D09D7671D12602A007048D0 /* ContainerTransition.swift in Sources */,
+				6D09D7A11D12602A007048D0 /* SystemRippleEffectAnimator.swift in Sources */,
+				6D09D7611D12602A007048D0 /* BorderSide.swift in Sources */,
+				6D09D77E1D12602A007048D0 /* PanInteractiveAnimator.swift in Sources */,
+				6D09D7A81D12602A007048D0 /* TransitionAnimationType.swift in Sources */,
+				6D09D7561D12602A007048D0 /* AnimatableTextField.swift in Sources */,
+				6D09D7821D12602A007048D0 /* PresentCardsSegue.swift in Sources */,
+				6D09D7631D12602A007048D0 /* CardsAnimator.swift in Sources */,
+				6D09D7921D12602A007048D0 /* PresentTurnWithDismissInteractionSegue.swift in Sources */,
+				6D09D79F1D12602A007048D0 /* SystemPushAnimator.swift in Sources */,
+				6D09D7A41D12602A007048D0 /* SystemTransitionType.swift in Sources */,
+				6D09D75D1D12602A007048D0 /* BarButtonItemDesignable.swift in Sources */,
+				6D09D7A91D12602A007048D0 /* TransitionFromDirection.swift in Sources */,
+				6D09D74E1D12602A007048D0 /* AnimatableCheckBox.swift in Sources */,
+				6D09D79C1D12602A007048D0 /* SystemFlipAnimator.swift in Sources */,
+				6D09D75E1D12602A007048D0 /* BlurDesignable.swift in Sources */,
 				6D630E1D1D0058A9001E18D1 /* AppDelegate.swift in Sources */,
+				6D09D78A1D12602A007048D0 /* PresentFoldSegue.swift in Sources */,
+				6D09D77B1D12602A007048D0 /* NavigationBarDesginable.swift in Sources */,
+				6D09D77D1D12602A007048D0 /* PaddingDesignable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +708,7 @@
 				6D630E2D1D0058A9001E18D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
